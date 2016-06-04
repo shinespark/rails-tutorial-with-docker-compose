@@ -5,7 +5,7 @@
 docker-compose-rails is a starter for rails with docker-compose.
 
 1. Fork this repository
-1. Rename forked repository
+1. Rename your repository
 1. Do 'How to setup'
 1. Enjoy Rails!
 
