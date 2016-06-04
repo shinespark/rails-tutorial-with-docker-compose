@@ -33,6 +33,12 @@ $ docker-compose run web rake db:create
 
 ## FAQ
 
+### change git remote origin
+
+```sh
+$ git remote set-url origin git@git.example.com:hoge/fuga.git
+```
+
 ### rake
 
 ```sh
