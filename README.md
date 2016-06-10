@@ -1,13 +1,4 @@
-# docker-compose-rails
-
-## What's this?
-
-docker-compose-rails is a starter for rails with docker-compose.
-
-1. Fork this repository
-1. Rename your repository
-1. Do 'How to setup'
-1. Enjoy Rails!
+# rails-tutorial-with-docker-compose
 
 ## How to setup
 
