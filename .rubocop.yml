@@ -1,4 +1,11 @@
-# Limit lines to 80 characters.
-LineLength:
-  Enabled: false
+Rails:
+  Enabled: true
 
+# Can non-ascii comments.
+Style/AsciiComments:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+# Limit lines to 80 characters.
+Style/LineLength:
+  Enabled: false
