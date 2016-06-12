@@ -1,0 +1,4 @@
+# Limit lines to 80 characters.
+LineLength:
+  Enabled: false
+
