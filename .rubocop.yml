@@ -9,3 +9,6 @@ Style/Documentation:
 # Limit lines to 80 characters.
 Style/LineLength:
   Enabled: false
+# Warn Hoge::Fuge
+Style/ClassAndModuleChildren:
+  Enabled: false
