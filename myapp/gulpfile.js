@@ -13,7 +13,7 @@ var bs = require('browser-sync').create();
 gulp.task('bs', function(){
   var bsOptions = {};
   bsOptions.files = [HAML_SRC, SCSS_SRC];
-  bsOptions.proxy = 'localhost:3000';
+  bsOptions.proxy = '192.168.99.100:3000';
   bsOptions.port  = 3001;
   bs.init(bsOptions);
 });
