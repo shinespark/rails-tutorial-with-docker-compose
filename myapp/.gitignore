@@ -13,3 +13,4 @@
 /tmp
 
 /spring/*.pid
+.byebug_history
