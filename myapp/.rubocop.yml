@@ -1,13 +1,19 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'node_modules/**/*'
+
 Rails:
   Enabled: true
 
+# Limit lines to 80 characters.
+Metrics/LineLength:
+  Enabled: false
 # Can non-ascii comments.
 Style/AsciiComments:
   Enabled: false
 Style/Documentation:
-  Enabled: false
-# Limit lines to 80 characters.
-Style/LineLength:
   Enabled: false
 # Warn Hoge::Fuge
 Style/ClassAndModuleChildren:
@@ -16,3 +22,7 @@ Style/NumericLiterals:
   Enabled: false
 Style/PercentLiteralDelimiters:
   Enabled: false
+Style/ColonMethodCall:
+  Enabled: false
+Style/IndentationConsistency:
+  SupportedStyles: rails
