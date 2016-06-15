@@ -12,3 +12,7 @@ Style/LineLength:
 # Warn Hoge::Fuge
 Style/ClassAndModuleChildren:
   Enabled: false
+Style/NumericLiterals:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  Enabled: false
